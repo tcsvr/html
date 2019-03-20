@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>弹性盒子</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .con{
+            margin: 0 auto;  
+            font-size: 14px;
+            /* height: 54px; */
+            max-width: 1215px;
+        }
+        a:link,a:visited{
+            text-decoration: none;
+        }
+        .acolor:hover{
+            word-spacing: 5px;
+            transition: 0.5s;
+        }
+        /* .con a{
+            display: block;
+            line-height: 54px;
+
+        } */
+        .logo{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .mau{
+            display: none;
+        }
+        .logo ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            padding: 0 10px;
+        }
+        .user{
+            
+            margin-left: auto;
+        }
+        .uer{
+            display: flex;
+        }
+         ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .ban{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .ban img,.tc img{
+            height:auto;max-width:100%
+        }
+        .tc ul{
+            display: grid;
+            margin: 0 auto;
+            grid-template-columns: repeat(4,[col-start] 1fr);
+            margin-top: 25px;
+            grid-gap: 20px;
+        }
+        .tc li{
+            margin-bottom: 20px;
+        }
+        .acolor{
+            display: block;
+            width: 6em;
+            height: 1.6em;
+            position: absolute;
+        }
+        .acolor:after{
+            content: "";
+            width: 0;   
+            height: 2px;
+            background: blue;
+            position: absolute;
+            top: 1.5em;
+            left: 2.5em;
+            transition: all .8s;
+        }
+        .acolor:hover:after{
+            left: 0em;
+            width: 4em;
+        }
+        .ac:after{
+            content: "";
+            width: 0;   
+            height: 2px;
+            background: blue;
+            position: absolute;
+            top: 8.3em;
+            left: 4em;
+            transition: all .8s;
+        }
+        .ac:hover:after{
+            left: 1.5em;
+            width: 4em;
+        }
+        .ft{
+            height: 30px;
+        }
+        .bg{
+            position: absolute;
+            left: 10%;
+            color: #fff;
+        }
+        .bg .ac{
+            /* display: flex; */
+            /* align-items: center;
+            /* flex-direction: column; */
+            /* justify-content: center; */ 
+            display: inline-block;
+            width: 8em;
+            height: 2.5em;
+            text-align: center;
+            line-height: 2.5em;
+            background: #fff;
+        }
+        @media (max-width:767px){
+            .ban{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+            }
+            .ban > .bg {
+                order: 1
+            }
+            .bg{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                padding: 10% 0;
+                background: #333;
+                width:100%;
+                height: 100%;
+                top: -5px;
+                left: 0;
+                margin: 0;
+            }
+                .ac:after{
+                content: "";
+                width: 0;   
+                height: 2px;
+                background: blue;
+                position: absolute;
+                top: 12.5em;
+                left: 14em;
+                transition: all .8s;
+            }
+            .ac:hover:after{
+                left: 12.5em;
+                width: 4em;
+            }
+        }
+        /* grid-template-columns: repeat(auto-fill,minmax(200px, 1fr)); */
+        @media (max-width:767px){
+            .tc ul{
+                grid-template-columns: repeat(2,[col-start] 1fr);
+                margin: 40px 20px;
+            }
+            img{
+                width: 100%
+            }
+        }
+        @media (max-width:539px){
+            .tc ul{
+                grid-template-columns: repeat(1,[col-start] 1fr);
+                margin: 40px 20px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        @media (max-width:767px){
+            .con .logo{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .nav{
+                display: none;
+            }
+            .mau{
+                display: block;
+            }
+            .user{
+                margin-left: 0;
+            }
+            .ban{
+                box-sizing: inherit;
+            }
+        }
+        @media (min-width:1215px){
+            .con{
+                width: 1215px;
+            }
+            .ban,.tc ul{
+                width: 1215px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="logo box">
+            <div class="mau">
+                <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+            <ul>
+                <li class="lo" >
+                    <!-- <a href="#"><img src="images/LOGO_03.png" alt="" ></a> -->
+                    <a href="#"><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=" alt="" ></a>
+                </li>
+                <li class="nav"><a href="#">Office</a></li>
+                <li class="nav"><a href="#">Windows</a></li>
+                <li class="nav"><a href="#">Surface</a></li>
+                <li class="nav"><a href="#">Xbox</a></li>
+                <li class="nav"> <a href="#">支持</a></li>
+            </ul>
+                <ul class="user nav box">
+                    <li class="use nav"><a href="#">所有 Microsoft</a></li>
+                <li>
+                    <!-- <li ><a href="#"><img src="images/big_03.png" alt="搜索"></a></li> -->
+                    <!-- <a href="#"><i class="far fa-search" alt="搜索"></i></a> -->
+                    <a href="#" class="uer"><i class="fas fa-search"></i></a>
+                </li>
+                <li>
+                    <!-- <li ><a href="#"><img src="images/card04.png" alt="购物车"></a></li> -->
+                    <a href="#" class="us"><i class="fas fa-cart-plus"></i></a>
+                </li>
+                <li>
+                    <!-- <li ><a href="#"><img src="images/username06.png" alt="用户登录"></a></li> -->
+                    <a href="#" class="us"><i class="far fa-user-circle"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ban box">
+        <div class="bg">
+            <h3>全新 Surface Pro 6</h3>
+            <p>百变 、耀出众</p>
+            <a class="ac" href="#">立即购买 ></a>
+        </div>
+        <picture class="box">
+            <source media="(max-width: 539px)" srcset="images/ban539.webp">
+            <source media="(max-width: 1083px)" srcset="images/ban1083.webp">
+            <img src="images/ban1259.webp" alt="Chris standing up holding his daughter Elva">
+        </picture>
+    </div> 
+    <div class="tc">
+        <ul>
+            <li> 
+                <img src="images/1.webp" alt="">
+                <a href="#"><h3>匠心，耀出众</h3></a>
+                <a href="#"><p>借助全新 Surface Laptop 2 突破传统。</p></a>
+                <a class="acolor" href="#">立即购买 ></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/2.webp" alt=""></a>
+                <a href="#"><h3>Surface Book 2</h3></a>
+                <a href="#"><p class="psl">性能巨匠。</p></a>
+                <a class="acolor" href="#">立即购买 ></a> 
+            </li>
+            <li>
+                <a href="#"><img src="images/3.webp" alt=""></a>
+                <a href="#"><h3>新 Surface-Headphones</h3></a>
+                <a href="#"><p class="psl"> 摆脱平凡。</p></a>
+                <a class="acolor" href="#">立即预定 ></a>
+            </li>
+            <li>
+                <a class="ar" href="#"><img src="images/4.webp" alt=""></a>
+                <a href="#"><h3>Xbox one X</h3></a>
+                <a href="#"><p class="psl">真4K 60帧超高游戏机。</p></a>
+                <a class="acolor" href="#">立即购买 ></a>
+            </li>
+        </ul>
+    </div>
+    <div class="ft">
+        <h1></h1>
+
+    </div>
+
+</body>
+</html>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>

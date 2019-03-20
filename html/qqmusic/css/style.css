@@ -1,0 +1,381 @@
+body{
+    background: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    border: 1px solid #3eda8e;
+    border-collapse: collapse;
+} */
+a:link,a:visited{
+    color:#333;
+    text-decoration: none;
+}
+a:hover h3:hover {
+    color:#3eda8e;
+    text-decoration: none;
+}
+a:active{
+    color:red;
+    text-decoration: none;
+}
+.ctz{
+    margin: 0 auto;
+}
+.bgc{
+    background: url(../images/bg_detail.jpg) 50% 0 repeat-x;
+}
+.clearfix:after{
+    content:"";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+.log ul li{
+    height: 96px;
+    line-height: 96px;
+    margin-right: 20px;
+}
+.head{
+    margin: 0 auto;
+    padding: 0;
+    height: 136px;
+    width: 1200px;
+    background: #fff;
+}
+.head h3{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.head h1{
+    position: relative;
+    margin-top: 24px;
+    padding: 0;
+    height: 46px;
+    float: left;
+}
+.logo{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 0px;
+    float: left;
+}
+.input{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 25px;
+    float: left;
+}
+input{
+    margin: 0;
+    padding: 0;
+    height: 38px;
+    width: 220px;
+}
+.big{
+    position: relative;
+    display: block;
+    margin-left:0px;
+    margin-top: 2px;
+    float: right;
+    background: none;
+}
+.user{
+    position: relative;
+    margin-right: 0;
+    margin-top: 0;
+    float: right;
+}
+.hst{
+    margin-left: 280px;
+    float: left;
+}
+.hst li{
+    display: inline-block;
+    padding-left: 30px;
+    height: 30px;
+}
+input{
+    position: relative;
+    margin: auto 0;
+}
+.inner{
+margin: 0 auto;
+padding-top: 50px;
+padding-bottom: 35px;
+width: 1200px;
+/* border: 0px solid red; */
+}
+.inner h3{
+    padding: 0;
+    margin: 0;
+}
+
+/* .rec1{
+    height: 450px;
+} */
+.content h2{
+    padding: 0;
+    margin:  0;
+    line-height: 50px;
+    height: 50px;
+    text-align:center;
+    text-indent: -99999px;
+}
+.bgf1{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center 0px;
+}
+.ru1{
+    text-align: center;
+}
+.ru1 li{
+  height: 30px;
+  padding-left: 40px;
+}
+.ru2 li{
+    width: 224px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+.ru2 li:nth-child(5n){
+    padding-right: 0;
+}
+/* .rec2{
+    height: 520px;
+} */
+.rec2 h3{
+float: left;
+}
+.bgf2{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -50px;
+}
+.ru3 li{
+    height: 86px;
+    /* width: 385px; */
+    vertical-align: top;
+    margin: 30px 0;
+    padding-right: 29px
+
+}
+/* .ru3 div,.ru3 p,.ru3 span {
+    margin: ;
+} */
+.ru3 div{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 187px;
+}
+.ru3 p {
+    margin: 0;
+}
+.ru3 span{
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+.ru3 li:nth-child(9n){
+    padding-right: 0;
+}
+
+.rec3{
+    height: 370px;
+}
+.bgf3{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -100px;
+}
+.rec3 ul li:first-child{
+    padding-right: 15px;
+}
+/* .rec4{
+    height: 860px;
+} */
+.bgf4{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -150px;
+}
+.rec4 h4 {
+    float: right;
+    position: relative;
+    margin-top: -56px;
+}
+.dwh{
+    position: relative;
+    bottom: -27px;
+    left: -5px;
+}
+/* .rec5{
+    height: 666px;
+} */
+.rec5 h3:first-child{
+    position: relative;
+    float: right;
+    width: 224px
+}
+.aleft{
+    text-align: right;
+    position: relative;
+    left: -5px;
+}
+.ru5 li{
+    width: 224px;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.ru5 li:nth-child(5n){
+    margin-right: 0;
+}
+.bgf5{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -200px;
+}
+.bgs{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: 80px -280px;
+}
+.bgt1{
+    background-image: url(../images/bg_index_top.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.bgt2{
+    background-image: url(../images/bg_index_top.jpg);
+    background-repeat: no-repeat;
+    background-position: -224px 0;
+}
+.bgt3{
+    background-image: url(../images/bg_index_top.jpg);
+    background-repeat: no-repeat;
+    background-position: -448px 0;
+}
+.bgt4{
+    background-image: url(../images/bg_index_top.jpg);
+    background-repeat: no-repeat;
+    background-position: -672px 0;
+}
+.bgt5{
+    background-image: url(../images/bg_index_top.jpg);
+    background-repeat: no-repeat;
+    background-position: -896px 0;
+}
+ol{
+    padding: 0;
+    list-style: decimal;
+    margin-bottom: 100px;
+}
+ol li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+ol span{
+    display:inline-block;
+    width: 1.5em;
+    color: #fff;
+}
+ol div{
+    margin-bottom: 1em;
+    color: #fff;
+}
+ol a:link,ol a:visited{
+    color: #fff;
+}
+.ru5 h3{
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+/* .rec6{
+    height: 666px;
+} */
+.bgf6{
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -250px;
+}
+.footer{
+    width:100%;
+    background-color: #333;
+    color: #999;
+    padding-top: 50px;
+    padding-bottom: 10px
+}
+.footer a:link,footer a:visited{
+    color: #999
+}
+p a:link,p a:visited{
+    color: #999
+}
+.fu1{
+    float: left;
+    margin-right: 130px;   
+}
+.fu1:last-child{
+    margin-right: 0;
+
+}
+.fu1 li{
+    margin-right: 10px;
+}
+.footer h3{
+   float: left;
+   margin-bottom: 30px;
+}
+.footer h4{
+    margin: 10px 0;
+}
+.d1 ,.d1 h3{
+    width: 320px
+}
+.d1 h4{
+    text-align: center;
+}
+.d2, .d2 h3{
+    width: 300px;
+    text-align: left;
+}
+.d2 h4{
+    width: 6em;  
+}
+.h41{
+    padding-right: 7em;
+}
+
+.d3,.d3 h3{
+    width: 300px;
+}
+.d3 h4{
+    width: 6em;
+}
+.kfh{
+    width: 1200px
+}
+.kfu li{
+    margin-right: 20px;
+}
+.cop{
+    margin: 100px auto 10px;
+    text-align: center;
+}

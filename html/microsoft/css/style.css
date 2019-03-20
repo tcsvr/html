@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: serif;
+    background: #fff;
+}
+a:link{
+    color:#333;
+    text-decoration: none;
+}
+a:visited{
+    color:#333;
+    text-decoration: none;
+}
+a:hover{
+    color:#333;
+    text-decoration: underline;
+}
+a:active{
+    color:red;
+    text-decoration: none;
+}
+.acolor:link,.acolor:visited{
+    color: blue;
+    font-weight: bold;
+}
+.contanier{
+    width: 1215px;
+    margin: 0 auto;
+}
+.header{
+    background: #fff;
+    height: 54px;
+    line-height: 54px;
+}
+.header a{
+    padding: 0 5px;
+    line-height: 54px;
+
+}
+ ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ ul li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.logo{
+    width:42%;
+    float: left;
+}
+.logo img{
+    display: block;
+    float: left;
+    padding:15px 16px 16px 10px;
+}
+.user{
+    width: 25%;
+    float: right;
+}
+.user img{
+    display: block;
+    float: right;
+    padding-top: 10px;
+    padding-right:10px;
+    
+}
+.conter{
+    background: #fff;
+}
+.tc ul {
+    display: inline-flex;
+    align-items: top;
+    margin: 20px auto;
+    justify-content: space-between;
+    vertical-align: top;
+
+}
+.tc li{
+    margin-right:24px;
+    width:24.5%;
+}
+span{
+    font-size: 15px;
+    line-height: 50px;
+    color: rgba(0,0,0,.6);
+}
+
+.gz li{
+    line-height: 50px;
+    vertical-align: top;
+    padding-left: 12px;
+
+}
+.gz img{
+    display: block;
+    float: left;
+    padding-top: 12px;
+}
+.footer {
+    margin: 0px auto;
+    background: #c9c9c9;
+    height: 360px;
+}
+.ftb ,.ftc{
+    width: 1215px;
+    margin: 0 auto;
+
+}
+.ftc ul li{
+    vertical-align: top;
+    padding-left: 12px;
+    padding-right: 60px;
+    line-height: 20px;
+}
+.footer h3{
+    height: 50px;
+    line-height: 50px;
+    color: #616161;
+}
+.ftbl{
+    width: 15%;
+    float: left;
+}
+.ftbl li{
+    padding-left: 10px;
+}
+.ftbl a{
+    vertical-align: top;
+}
+.ftbr{
+    width:85%;
+    float: right;
+    text-align: right;
+}
+.ftbr li{
+    padding-left: 10px;
+}
+span{
+    font-family:Arial;
+    font-size: 11px;
+    color: #616161;
+}
+.ftbl img{
+    vertical-align:top;
+}
+.footer p{
+    font-family:Arial;
+    font-size: 12px;
+    color: #616161;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 0;
+}

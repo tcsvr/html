@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* div{
+            display: block;
+            position: relative;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background: green;
+            border-radius: 50px;
+            transition: 5s;
+            animation: 5s;
+        }
+        div:hover{ 
+            left: 500px; 
+            width: 500px;
+            height: 500px;
+            border-radius: 250px;
+            box-shadow: 20px 20px  -30px red;
+        }
+         @keyframes div{ 
+             form{left: 0}
+             to{left: 500px}
+        } */ 
+        #ball{
+            width: 100px;
+            height: 100px;
+            background: purple;
+            border-radius: 50%;
+            /* transition: transform 2s ,width 3s ease-in-out; */ 
+        }
+        @keyframes move {
+            0% {
+                margin-left: 0;
+            }
+            50% {
+                margin-top: 100px;
+            }
+
+            100% {
+                margin-left: 500px;
+            }
+        }
+        #ball:hover{
+            animation: move 5s ease ;
+            /* width: 800px; 
+            transform: translate(500px,0); */
+        }       
+    </style>
+</head>
+<body>
+    <div id="ball">
+
+    </div>
+</body>
+</html>

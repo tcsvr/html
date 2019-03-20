@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    color: #f00;
+    transition: .5s
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.fol{
+    float: left;
+}
+.for{
+    float: right;
+}
+.mpz{
+    margin: 0;
+    padding: 0;
+}
+.auto{
+    margin: auto;
+    padding: auto;
+}
+ul , ol {
+    list-style: none;
+}
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+.va{
+    vertical-align: top;
+}

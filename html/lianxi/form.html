@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form method="GET" action="http://baidu.com">
+        <table>
+            <tr>
+                <td><label for="user">用户名</label></td>
+                <td>
+                    <input type="text" id="user" value="天下" disabled>
+                    <input type="number" id="user">
+                    <input type="email" id="user">
+                </td> 
+            <tr>
+                <td><label for="pas">密码</label></td>
+                <td>
+                    <input type="password" id="pas">
+                </td>
+            </tr>
+            <tr>
+                <td>Button</td>
+                <td>
+                    <input type="submit" value="保存">
+                    <input type="button" value="普通按钮" onclick="alert('hello')">
+                    <input type="image" src="new.png">
+                    <input type="reset" value="重写">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="sex" id="man" checked><label for="man">男</label>
+                    <input type="radio" name="sex" id="wom"><label for="wom">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td>复选框</td>
+                <td>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select multiple="multiple" name="" id="">
+                        <option value="">广东省</option>
+                        <option value="" selected>河南省</option>
+                        <option value="">河北省</option>
+                        <option value="">深圳市</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Txta</td>
+                <td>
+                    <Textarea cols="100" rows="5"></Textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file">
+                    <input type="hidden" name="id" value="100">
+                </td>
+            </tr>
+        </table>
+    </form>   
+</body>
+</html>

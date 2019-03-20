@@ -1,0 +1,28 @@
+https://github.com/tcsvr/tcs.git
+
+git remote add origin https://github.com/tcsvr/tcs.git
+ git push -u origin master
+
+git remote add origin git@github.com:tcsvr/tcs.git
+ git push -u origin master
+
+tab （代码 补全）
+
+merge pull (代码更新补全）
+cat (看内容）
+
+git init
+gitclone
+cd 
+touch （未跟踪 U）
+vi
+vim
+re -rf (删除)
+q (退出）
+wq(保存 退出编辑状态）
+Ctrl + C (强制退出）
+git status (文件状态）
+git add （缓存 A）
+gti commit )-(m)（本地仓库 M）
+git log
+

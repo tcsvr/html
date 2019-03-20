@@ -1,0 +1,302 @@
+body{
+    background: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+}
+a:link,a:visited{
+    color:#333;
+    text-decoration: none;
+}
+a:hover{
+    color:#0000ff;
+    text-decoration: none;
+}
+a:active{
+    color:red;
+    text-decoration: none;
+}
+header{
+    background: #eee;
+    /* position: fixed; */
+    height: 80px;
+    margin: 0 auto;
+}
+header div{
+    width: 1024px;
+    margin: 0 auto;
+    background: #eee;
+    height: 80px;
+    /* padding-bottom: 10px; */
+}
+header .logo{
+    height: 80px;
+}
+header h2{
+    font-size: 18px;
+    float: left;
+    height: 80px;
+    margin: 0;
+    line-height: 80px;
+    padding-left: 45px;
+}
+header span{
+    display: block;
+    float: left;
+    width: 116px;
+    text-align: center;
+}
+header h3{
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+header .lx{
+    position: relative;
+    top: 10px;
+}
+.con{
+    width: 1024px;
+    margin: 0 auto;
+}
+.con h2{
+font-size: 18px;
+}
+.banner{
+    margin-top: 10px;
+}
+ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.rc1 img:hover{
+    opacity: 0.6;
+}
+.rc1 ul li{
+    /* position: absolute; */
+    width: 330px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    padding-right: 17px;
+}
+.rc1 ul li:nth-child(3n){
+    padding-right: 0px;
+}
+.rc1 ul li img{
+    width: 330px;
+    height: 220px;
+}
+.rc1 button{
+    position: relative;
+    top: -35px;
+    left: 240px
+}
+.rc1 button{
+    border: 1px;
+}
+.rc1 button:hover{
+    background: #999;
+    border: 1px;
+    color: #0000ff;
+}
+.clearfix:after{
+    content:"";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.new ul li{
+    width: 500px;
+    float: left;
+}
+.new1 ul{
+    position: absolute;
+    background: #fff;
+}
+.new1 ul li p{
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    margin: 0;
+    border: 1px solid #999;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.new ul li p:nth-child(-n+3){
+    border-right: none;
+}
+.new ul li p:hover{
+    background: #6e9fdf;
+}
+
+.new ul li img{
+    width: 500px;
+   
+}
+.new1{
+    position: relative;
+    left: 24px;
+    /* background: #fff; */
+}
+
+/* .p1:hover{
+    
+    z-index: top;
+} */
+.jion ul li:first-child{
+    width: 500px;
+    height: 400px;
+}
+.jion p,.jion h3{
+    text-indent: 2em;
+}
+.pj{
+    line-height: 150px;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 100px;
+}
+.butj{
+    position: relative;
+    left: 75px;
+    font-size: 16px;
+    border: 1px;
+}
+.butj:hover{
+    background: #ccc;
+    color: #0000ff;
+    font-size: 18px;
+}
+.jion ul{
+    /* background-image: url(../images/w.jpg);  */
+    background-position:0 -100px;
+    /* -webkit-filter: blur(3px); */
+    /* filter: blur(3px); */
+    height: 450px;
+    /* color: #fff; */
+    background: #eee;
+}
+.jion ul li{
+    float: left;
+    width: 450px;
+    border: 1px solid purple;
+    border-collapse: collapse;
+    border-bottom: none;
+    opacity: 1;
+
+}
+.jion ul li:last-child{
+    border-bottom: 1px solid purple;
+}
+.jion ul li:first-child{
+    padding-right: 22px;
+    border: none;
+}
+.jion ul li:nth-child(2){
+    margin-top: 50px;
+}
+.but{
+    position: relative;
+    top: -55px;
+    left:370px;
+}
+.but:hover{
+    color: #0000ff;
+}
+footer{
+    margin-top: 20px;
+    background: #ccc;
+    padding-top: 1px;
+}
+footer h2{
+    text-indent: 2em;
+}
+footer h3{
+    text-indent: 4em;
+}
+table{
+    text-indent: 4em;
+}
+table td{
+    height: 30px;
+}
+footer p{
+    text-indent: 4em;
+}
+footer p span{
+    position: relative;
+    top: -110px;
+    padding-right: 50px;
+    font-size: 16px;
+}
+.tcs{
+    height: 135px;
+}
+.tab{
+    float: right;
+    height: 200px;
+    padding-right: 2em;
+}
+.pc{
+    text-align: center;
+    background: #bbb;
+}
+nav{
+    text-indent: 2em;
+    padding: 10px 0;
+}
+nav a{
+    padding-right: 10px;
+}
+.us img{
+    margin-top: 10px;
+    width: 1024px;
+}
+.jion{
+    margin: 0 auto;
+}
+.jios h3{
+    text-align: center;
+}
+.jio{
+    width: 600px;
+    position: relative;
+    left: 300px;
+}
+.jio button:hover{
+    color: #0000ff;
+}
+.jio button{
+    margin-bottom: 50px;
+}
+.ton{
+    text-align: center;
+}
+.ton span{
+    padding: 10px;
+}
+.xs{
+    width: 640px;
+    float: left;
+}
+.xs h2{
+    text-align: center;
+}
+.xs p{
+    text-indent: 2em;
+}
+.list{
+    width: 350px;
+    float: right;
+    margin-top: 50px;
+}
+.bule a:link,.bule a:visited{
+    color: blue;
+}

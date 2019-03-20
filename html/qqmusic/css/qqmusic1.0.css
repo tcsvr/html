@@ -1,0 +1,54 @@
+body{
+    background: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    background: #fff;
+    background-image: url(../images/logo.png);
+}
+.rec{
+    height: 300px;
+    background: #ccc;
+}
+.container{
+    width: 100%;
+}
+.inner-table{
+    margin: 0 auto;
+    width: 1200px;
+    border: 1px solid red;
+}
+#footer{
+    width:100%;
+    background-color: #333;
+    height: 900px;
+}
+.fot{
+    padding: 1px;
+    text-align:center;
+    width: 64px;height: 59px;
+    border:1px solid #000; 
+    display:-moz-inline-box; 
+    display:inline-block; 
+}
+span{
+    text-align:center;
+    width:95px;height:20px; 
+    border:1px solid #000; 
+    display:-moz-inline-box; /* css注释：for ff2 */ 
+    display:inline-block; 
+}
+.tpc{
+    width:20px;height:20px; 
+    border:1px solid #000; 
+    display:-moz-inline-box; /* css注释：for ff2 */ 
+}
+.pac{
+    margin: 0 auto;
+    width:400px;height:59px; 
+    border:1px solid #000; 
+}

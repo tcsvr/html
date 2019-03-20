@@ -1,0 +1,392 @@
+body{
+    background: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    border: 0px solid #3ec27e;    
+}
+a:link,a:visited{
+    color:#999;
+    text-decoration: none;
+}
+a:hover h3:hover {
+    color:#3eda8e;
+    text-decoration: none;
+}
+a:active{
+    color:red;
+    text-decoration: none;
+}
+.header{
+    margin: 0 auto;
+    padding: 0;
+    height: 100px;
+    background: #fff;
+    /* background-image: url(../images/logo.png); */
+}
+.tt{
+    width: 190px
+}
+h3{ 
+    margin: 0;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    height: 90px;line-height: 90px;
+    text-align: center;
+}
+.h3c{
+    color: #fff
+}
+div:hover{
+    color: #3ec27e;
+}
+.div:hover{
+    color: #3ec27e;
+}
+
+input{
+    display: block;
+    height: 38px;
+    float: right;
+    width: 220px;    
+}
+.big{
+    display: block;
+   float:right;
+   margin: 1px -220px -50px -200px;
+}
+.big:hover :visited{
+    background-color: #3ec27e;
+}
+.rec{
+    height: 530px;    
+}
+.but{
+    border:none;
+    height: 38px;
+    width: 120px;
+    background-color: #3ec27e;
+}
+.butc:link,.butc:visited{
+    color: #fff;
+}
+.but:hover{
+    background-color: #11c04b;
+}
+/* .butc:visited{
+    color: #fff;
+} */
+.but1{
+    border:1px solid #ccc;
+    height: 38px;
+    width: 120px;
+    background: #fff;
+}
+.butc1:link,.butc1:visited{
+    color: #000;
+}
+.but1:hover{
+    background-color: #c9c9c9;
+}
+.h{
+    height: 48px;
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+.h1{
+    height: 48px;
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -45px;
+}
+
+.h2{
+    height: 48px;
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -90px;
+}
+
+.h3{
+    height: 48px;
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -135px;
+}
+.h4{
+    height: 48px;
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -182px;
+}
+.h5{
+    height: 48px;
+    background-image: url(../images/index_tit.png);
+    background-repeat: no-repeat;
+    background-position: center -235px;
+}
+.rec1{
+    height: 550px;
+    background: #eee;
+}
+.rec2{
+    height: 420px;
+    background: #ccc;
+}
+.rec3{
+    height: 860px;
+    background: #eee;
+}
+.rec4{
+    height: 560px;
+    background: #ccc;
+}
+.rec5{
+    height: 666px;
+    background: #ccc;
+}
+.container{
+    width: 100%;
+}
+.inner-table{
+    margin: 0 auto;
+    width: 1220px;
+    border: 0px solid red;
+}
+#footer{
+    width:100%;
+    background-color: #333;
+    height: 560px;
+}
+.top{
+    vertical-align: top;
+}
+
+span{
+    text-align: left;
+    line-height: 50px;
+    color: #999;
+    vertical-align: top
+}
+.tce td{
+    width: 100px;
+    height: 100px;
+}
+.jz{
+    text-align: center;
+    vertical-align: top;
+}
+.inde{
+    text-indent: -50px;
+}
+.ind{
+    text-indent: -180px;
+}
+.t1{
+    width: 130px;
+    display:-moz-inline-box; 
+
+}
+.t2{
+    width: 100px;
+    display:-moz-inline-box; 
+}
+.ftd{
+    color: #999;
+    line-height: 20px;
+}
+.ft{
+    text-align:center;
+}
+.ftr{
+    text-indent: 1150px;
+    color: #000;
+}
+.ftr a:link,.ftr a:visited{
+    color: #000;
+}
+.ftr a:hover{
+    color:#3ec27e
+}
+.tab1{
+    word-spacing: 50px;
+    margin: auto;
+}
+.tab3{
+    word-spacing: 25px;
+}
+.tab3{
+    word-spacing: 25px;
+    }
+    
+.tdsp{
+    width: 10px;
+}
+.tdw{
+    border-spacing: 20px;
+}
+.tdw1{
+    border-spacing: 20px
+}
+
+.tdw  td{
+    width: 223px;
+    vertical-align: top;
+    margin: 20px;
+}
+.bgc{
+    background: url(../images/bg_detail.jpg) 50% 0 repeat-x;
+}
+.bgc1{
+    background-color: #3ec27e;
+}
+
+.tdw2 td{
+    height: 20px;
+}
+div{
+color: #000;
+font-size: 16px
+}
+.tsc{
+    text-anchor: #000;
+    font-size: 18px;
+}
+.thg{
+    height: 50px;
+}
+.thg a{
+    color: #000;
+}
+.div{
+    color: #000;
+    font-size: 16px  
+}
+.btn{
+    border: 1px solid #c9c9c9;
+    font-size: 14px;
+    margin-right: 6px;
+    padding: 0 23px;
+    height: 38px;
+    width: 122px;
+    line-height: 38px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    background:url(../images/bgbt.png) no-repeat 10px 0; 
+}
+.btn a:link,.btn a:visited{
+    color: #000;
+}
+.btn:hover{
+    background: #f0f0f0;
+    /* background:url(../images/bgbt.png) no-repeat 10px 0; */
+}
+.th div{
+    margin-top: 25px ;
+    line-height: 1px;
+}
+.tc{
+    text-indent: 230px;
+}
+.tc a{
+    line-height: 50px;
+}
+.trc{
+    line-height: 50px;
+    text-indent: 185px
+}
+.trc a:link,.trc a:visited{
+    color: #000;
+}
+.trc a:hover{
+    color: #3ec27e;
+}
+.trc1 a{
+    line-height: 50px;
+}
+ a:hover{
+    color: #3ec27e;
+}
+.fc:link,.fc:visited{
+    color: #3ec27e;
+}
+.bt1{
+    background: url(../images/bg_index_top.jpg) no-repeat ;
+    width: 220px;
+    height: 450px;
+    float: left; 
+    margin-right: 19px;
+}
+.bt2{
+    background: url(../images/bg_index_top.jpg) no-repeat -224px 0;
+    width: 220px;
+    height: 450px;
+    float: left; 
+    margin-right: 19px;
+}
+.bt3{
+    background: url(../images/bg_index_top.jpg) no-repeat -448px 0;
+    width: 220px;
+    height: 450px;
+    float: left; 
+    margin-right: 19px;
+}
+.bt4{
+    background: url(../images/bg_index_top.jpg) no-repeat -672px 0;
+    width: 220px;
+    height: 450px;
+    float: left; 
+    margin-right: 19px;
+}
+.bt5{
+    background: url(../images/bg_index_top.jpg) no-repeat -896px 0;
+    width: 220px;
+    height: 450px;
+    float: left; 
+    margin-right: 19px;
+}
+ul{
+    list-style: none;
+}
+ul h3{
+    height: 36px;
+    line-height: 1;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+    text-indent: -60px;
+}
+ul h4{
+    line-height: 22px;
+    text-indent: -9999px;
+    background:url(../images/index_tit.png) no-repeat 30px -300px; 
+}
+ul h5{
+    line-height: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    padding: 30px 0;
+    margin: 0 40px;   
+}
+ol li{
+    margin-bottom: 27px; 
+}
+ol li a:link,ol li a:visited{
+    color: #fff
+}
+ol li a:hover{
+    color: #3ec27e
+}
+.ftl td{
+   padding-left: 30px;
+}
